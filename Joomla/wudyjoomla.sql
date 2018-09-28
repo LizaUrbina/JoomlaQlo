@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `c0z6x_assets`
 --
 
+use wudyjoomla;
+
 CREATE TABLE `c0z6x_assets` (
   `id` int(10) UNSIGNED NOT NULL COMMENT 'Primary Key',
   `parent_id` int(11) NOT NULL DEFAULT '0' COMMENT 'Nested set parent.',
